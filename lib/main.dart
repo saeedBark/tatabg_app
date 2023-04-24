@@ -7,12 +7,14 @@ void main() {
     home: Scaffold(
       backgroundColor: Colors.indigo,
       appBar: AppBar(
-        title: Text('تطابق صورة'),
+        centerTitle: true,
+        title: const Text('تطابق صورة'),
         backgroundColor: Colors.indigo[800],
       ),
-      body: ImagePage(),
+      body: const ImagePage(),
     ),
-  ));
+  ),
+  );
 }
 
 class ImagePage extends StatefulWidget {
@@ -39,12 +41,12 @@ class _ImagePageState extends State<ImagePage> {
           leftImageNumber == rightImageNumber
               ? 'لقد نجحت مبرروك'
               : 'حاول مرة أخرى',
-          style: TextStyle(fontSize: 42, color: Colors.white),
+          style: const TextStyle(fontSize: 42, color: Colors.white),
         ),
         Row(
           children: [
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () {
                   setState(() {
                     changeImage();
@@ -54,7 +56,7 @@ class _ImagePageState extends State<ImagePage> {
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () {
                   setState(() {
                     changeImage();
