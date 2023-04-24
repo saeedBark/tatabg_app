@@ -1,16 +1,7 @@
 # tatabok_app
 
-A new Flutter project.
+A new Flutter project Tatabg app
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screens
+![Screenshot_20230424_214833](https://user-images.githubusercontent.com/109968682/234127995-fc58601a-5421-4480-a3a9-c6b98161f412.png)
+![Screenshot_20230424_215433](https://user-images.githubusercontent.com/109968682/234128040-7eb0e8fd-b6f9-4a16-bb1a-9a868342a66e.png)
